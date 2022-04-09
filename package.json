@@ -1,0 +1,22 @@
+{
+  "name": "storesamadhan-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.28.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15"
+  }
+}
